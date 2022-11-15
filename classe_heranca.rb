@@ -19,6 +19,7 @@ class SensorTemperatura < Sensor
     def coletar_metricas
         #inicializar componentes temperatura
         p "Coletando metrica de temperatura"
+        super # chamar funções da principal
     end
 end
 
